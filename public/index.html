@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+  This is the index.html page for the ClothingCentral website. Includes the main, item,
+  order history, login, and purchase views. It also allows users to search different products and
+  filter products based on category.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap" rel="stylesheet">
+    <title>ClothingCentral</title>
+  </head>
+  <body>
+    <header>
+      <h1>ClothingCentral</h1>
+    </header>
+    <hr>
+    <nav>
+      <section id="search">
+        <input type="text" placeholder="Search by exact item name or id...">
+        <button id="search-btn">Search</button>
+        <button id="home-btn">Home</button>
+        <button id="history-btn">Order History</button>
+        <button id="login-view-btn">User</button>
+      </section>
+      <hr>
+      <section id="filters">
+        <h2>Filters:</h2>
+        <button id="men">Men</button>
+        <button id="women">Women</button>
+        <button id="vip">VIP Items</button>
+        <button id="main-format">List View</button>
+      </section>
+      <hr>
+    </nav>
+    <main>
+      <section id="main-view"></section>
+      <section id="history-view" class="hidden"></section>
+      <section id="item-view" class="hidden"></section>
+      <section id="purchase-view" class="hidden"></section>
+      <section id="login-view" class="hidden">
+        <h2>Log In!</h2>
+        <form>
+          <label for='username'>Username</label>
+          <input type='text' id='username' name='username' required>
+          <label for='pwd'>Password</label>
+          <input type='password' id='pwd' name='pwd' required>
+          <button id="login-btn" type="submit">Log In!</button>
+        </form>
+        <button id="logout-btn" disabled>Log Out!</button>
+      </section>
+    </main>
+  </body>
+</html>

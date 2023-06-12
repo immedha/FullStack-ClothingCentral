@@ -1,0 +1,109 @@
+/*
+  This is the styles.css stylesheet that styles the index.html page.
+  Its has a white and black color minimalistic color theme. It allows changing between
+  different views of the website.
+*/
+
+body, button, input {
+  font-family: 'Playfair', serif;
+}
+
+header {
+  height: 50px;
+}
+
+p {
+  font-style: italic;
+}
+
+main > section, nav > section, nav, form, #feedback-section {
+  display: flex;
+}
+
+nav, form, #feedback-section, #login-view, .list-format {
+  flex-direction: column;
+}
+
+main > section, nav > section {
+  flex-direction: row;
+  align-items: center;
+}
+
+main > section {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+form > input {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 35px;
+  margin: auto;
+}
+
+p, h2, button, input {
+  font-size: 20px;
+  margin: 0px;
+}
+
+main > section > section, nav button {
+  margin: 10px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border: solid black 2px;
+}
+
+textarea, section button {
+  margin-top: 10px;
+}
+
+#feedback-section > button {
+  width: 150px;
+}
+
+textarea, input {
+  width: 400px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+hr {
+  width: 100%;
+}
+
+.feedback-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.title {
+  text-decoration: dotted underline;
+}
+
+.choose-rating {
+  background-color: darkcyan;
+}
+
+.hidden {
+  display: none;
+}
+
+#logout-btn {
+  width: 412px;
+}

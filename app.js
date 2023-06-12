@@ -1,8 +1,4 @@
 /*
- * Medha Gupta
- * June 5, 2023
- * CSE 154 AB: Allan Tran, Elizabeth Xiong
- *
  * This is the app.js page that stores data for the ClothingCentral website. It stores all the
  * products the website sells, feedback, transactions, and checks login information.
  */
