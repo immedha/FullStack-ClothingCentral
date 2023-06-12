@@ -5,6 +5,7 @@ Clothing Central is a full stack web project. It is an e-commerce clothing store
 | File          | Description |
 |---------------|------------------------------|
 |`public/index.html`|This holds the entire front end of the website.|
+|`public/img`|This folder holds all the product images|
 |`public/styles.css`|This file contains the CSS styles for the front end.|
 |`public/index.js`|This file contains the client-side JavaScript, which will call the Products API built in `app.js`|
 |`app.js`|This file contains the Node.js service that is the back end API.|
@@ -12,6 +13,7 @@ Clothing Central is a full stack web project. It is an e-commerce clothing store
 |`package.json`|This file contains project dependencies |
 |`APIDOC.md`|This file documents the `app.js` web service.|
 |`tables.sql`|This file includes any CREATE statements used to first import data into the database.|
+|`node_modules`|This folder holds all the dependency files|
 
 Here are some features of the website
 - a main view to display all items
